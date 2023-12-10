@@ -36,7 +36,7 @@ transform = transforms.Compose([
 ])
 
 # Load CIFAR-100 metadata
-with open('data/cifar-100-python/meta', 'rb') as f:
+with open('meta', 'rb') as f:
     cifar100_meta = pickle.load(f, encoding='bytes')
 
 # Extract class labels from metadata
